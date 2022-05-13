@@ -49,14 +49,15 @@ public void EmployeeRecords() // valid syntax, but discouraged
 Identifiers are the names of local variables, instance and class variables, labels, but also the names for classes, packages, modules and methods. 
 All Unicode characters are valid, not just the ASCII subset. 
 
-i. All identifiers can begin with a letter, a currency symbol or an underscore (_). According to the convention, a letter should be lower case for variables.
+- All identifiers can begin with a letter, a currency symbol or an underscore (\_). According to the convention, a letter should be lower case for variables.
 
-ii. The first character of identifiers can be followed by any combination of letters, digits, currency symbols and the underscore. 
-The underscore is not recommended for the names of variables. Constants (static final attributes and enums) should be in all Uppercase letters.
+- The first character of identifiers can be followed by any combination of letters, digits, currency symbols and the underscore. 
+- The underscore is not recommended for the names of variables. 
+- Constants (static final attributes and enums) should be in all Uppercase letters.
 
-iii. Most importantly identifiers are case-sensitive.
+- Most importantly identifiers are case-sensitive.
 
-iv. A keyword cannot be used as an identifier since it is a reserved word and has some special meaning.
+- A keyword cannot be used as an identifier since it is a reserved word and has some special meaning.
 
 
 ```java
@@ -80,4 +81,14 @@ These words are therefore not allowed to use as variable names or objects.
 | short	    | static	     | strictfp	| super      |
 | switch	  | synchronized | this	    | throw      |
 | throws	  | transient	   | try	    | void       |
-volatile	while
+| volatile	| while        |          |            | 
+
+# Data types
+In Java, variables must be one of the following types:
+
++ `String`: stores text, such as "Hello". String values are surrounded by double quotes
++ `int`: stores integers (whole numbers), without decimals, such as 123 or -123
++ `float`: stores floating point numbers, with decimals, such as 19.99 or -19.99
++ `char`: stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
++ `boolean`: stores values with two states: true or false
+
